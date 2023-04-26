@@ -21,19 +21,19 @@ public class ejerc6 {
        Scanner leer = new Scanner(System.in);
         int num1, num2, numeropredeterminado;
         numeropredeterminado = 25;
-        System.out.println("Ingrese el primer número");
+        System.out.println("Ingrese el primer nummero");
         num1 = leer.nextInt();
-        System.out.println("Ingrese el segundo número");
+        System.out.println("Ingrese el segundo nummero");
         num2 = leer.nextInt();
 
         if (num1 > numeropredeterminado && num2 > numeropredeterminado) {
-            System.out.println("Los dos números son mayores");
+            System.out.println("Los dos nummeros son mayores");
         } else if (num1 > numeropredeterminado) {
-            System.out.println("El primer número es mayor");
+            System.out.println("El primer nummero es mayor");
         } else if (num2 > numeropredeterminado) {
-            System.out.println("El segundo número es mayor");
+            System.out.println("El segundo nummero es mayor");
         } else {
-            System.out.println("Ninguno de los números es mayor!");
+            System.out.println("Ninguno de los numeros es mayor!");
         }
     }
 }
